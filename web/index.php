@@ -1,5 +1,6 @@
 <?php
-	$conn = new mysqli("localhost","api_dlshvh_onlin","dwt74iwztStzHTpG","api_dlshvh_onlin");
+	//数据库信息
+	$conn = new mysqli("localhost","username","password","database");
 	if($conn->connect_error){
 		die("error to connect database");
 		
